@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SumThing - 개발자 웹사이트</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background:#0b0f17; color:#e8eefc; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px; }
+    .card { background:#121a2a; border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:24px; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    p { line-height: 1.7; color: rgba(232,238,252,.85); }
+    a { color:#9cc3ff; }
+    .grid { display:grid; gap:16px; grid-template-columns: 1fr; margin-top: 18px; }
+    .muted { color: rgba(232,238,252,.7); font-size: 14px; }
+    .btn { display:inline-block; padding:10px 14px; border-radius:10px; background:#1f2b44; border:1px solid rgba(255,255,255,.10); text-decoration:none; margin-right:8px; }
+    .btn:hover { background:#253354; }
+    footer { margin-top: 22px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>SumThing</h1>
+      <p>사칙연산을 빠르고 재미있게 연습하는 두뇌 트레이닝 게임입니다.</p>
+
+      <div class="grid">
+        <div>
+          <p><strong>개발자</strong><br/>
+            kangagi</p>
+          <p><strong>지원/문의</strong><br/>
+            <a href="mailto:kangagi97@naver.com">[support-kangagi97@naver.com]</a></p>
+        </div>
+
+        <div>
+          <a class="btn" href="./privacy.html">개인정보처리방침</a>
+          <a class="btn" href="./delete-account.html">계정/데이터 삭제 안내</a>
+        </div>
+
+        <p class="muted">
+          본 사이트는 앱 지원 및 정책 안내를 위한 페이지입니다.
+        </p>
+      </div>
+
+      <footer class="muted">
+        © 2026 kangagi. All rights reserved.
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
