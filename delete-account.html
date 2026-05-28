@@ -5,20 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SumThing — 계정 및 데이터 삭제 안내 / Account & Data Deletion</title>
   <style>
-    :root { color-scheme: light; }
     body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; margin: 0; padding: 28px 18px; line-height: 1.75; color: #111; background: #fafafa; }
-    .wrap { max-width: 880px; margin: 0 auto; background: #fff; padding: 28px 24px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .wrap { max-width: 900px; margin: 0 auto; background: #fff; padding: 28px 24px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
     h1 { font-size: 1.55rem; margin: 0 0 .8rem; }
     h2 { font-size: 1.18rem; margin: 1.5rem 0 .5rem; border-bottom: 1px solid #eee; padding-bottom: .35rem; }
     h3 { font-size: 1.02rem; margin: 1.2rem 0 .35rem; }
     code { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
     .meta { font-size: .95rem; color: #333; background: #f7f8fb; padding: 10px 12px; border-radius: 10px; }
     .note { background: #f5f7fa; border-left: 4px solid #4a7cff; padding: 12px 14px; margin: 12px 0; font-size: .95rem; }
+    .warn { background: #fff6f6; border-left: 4px solid #d64545; padding: 12px 14px; margin: 12px 0; font-size: .95rem; }
     table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: 12px 0; }
     th, td { border: 1px solid #ddd; padding: 10px 12px; text-align: left; vertical-align: top; }
     th { background: #f0f2f5; }
-    .lang { margin-top: 20px; display: grid; gap: 18px; }
-    @media (min-width: 900px){ .lang { grid-template-columns: 1fr 1fr; } }
+    .lang { margin-top: 18px; display: grid; gap: 18px; }
+    @media (min-width: 920px){ .lang { grid-template-columns: 1fr 1fr; } }
     a { color: #1a5fb4; }
     footer { margin-top: 24px; font-size: .9rem; color: #666; }
   </style>
@@ -37,31 +37,46 @@
       <section aria-label="Korean">
         <h1>계정 및 데이터 삭제 안내</h1>
 
-        <h2>앱 내에서 삭제</h2>
+        <h2>기본 방법: 앱 내에서 삭제 (권장)</h2>
         <ol>
           <li>SumThing 실행 후 Google 또는 Apple로 로그인</li>
           <li>메인 메뉴에서 <strong>계정 삭제</strong> 선택</li>
           <li>확인 창에서 <strong>예</strong>를 누르면 삭제가 진행됩니다</li>
         </ol>
 
-        <h2>이메일로 삭제 요청 (앱 내 삭제가 어려운 경우)</h2>
+        <div class="note">
+          <strong>중요</strong><br />
+          보안을 위해 계정 삭제는 <strong>본인 계정으로 로그인한 상태</strong>에서 진행하는 것을 권장합니다.
+        </div>
+
+        <h2>이메일 문의 (앱 내 삭제가 어려운 경우)</h2>
+        <p>
+          앱 실행/로그인이 불가능한 예외 상황에서만 아래 이메일로 문의해 주세요.
+          <strong>안전한 처리를 위해 본인 확인 절차</strong>가 필요하며,
+          <strong>닉네임만으로는 계정 삭제를 진행하지 않습니다.</strong>
+        </p>
+
+        <h3>문의 방법</h3>
         <ol>
           <li><a href="mailto:kangagi97@naver.com">kangagi97@naver.com</a> 으로 이메일을 보내 주세요</li>
-          <li><strong>제목</strong>: [SumThing] 계정 삭제 요청</li>
-          <li><strong>본문 필수</strong>:
+          <li><strong>제목</strong>: [SumThing] 계정 삭제 문의</li>
+          <li><strong>본문에 포함</strong>:
             <ul>
               <li>로그인에 사용한 <strong>Google 또는 Apple 계정 이메일</strong></li>
               <li>앱 내 <strong>닉네임(표시 이름)</strong> (가능한 경우)</li>
-              <li>요청 내용: <strong>계정 및 관련 데이터 삭제</strong></li>
+              <li>상황 설명(예: 기기 분실, 로그인 불가 등)</li>
             </ul>
           </li>
-          <li>요청 확인 후 <strong>30일 이내</strong> 처리 결과를 회신합니다</li>
         </ol>
 
-        <div class="note">
-          <strong>게스트(미로그인) 이용자 안내</strong><br />
-          게스트는 서버 계정이 없을 수 있습니다. 이 경우 앱 삭제 또는 기기 저장공간 삭제로 기기 내 데이터가 제거됩니다.
+        <div class="warn">
+          <strong>오삭제/악용 방지를 위해</strong><br />
+          요청 이메일의 정보가 계정 소유자임을 확인할 수 없는 경우(예: 닉네임만 제공, 소유권 확인 불가 등),
+          계정 삭제를 진행하지 않을 수 있습니다.<br />
+          가능하면 앱 내의 <strong>계정 삭제</strong> 기능을 이용해 주세요.
         </div>
+
+        <p>요청 확인 및 처리 결과는 일반적으로 <strong>30일 이내</strong> 회신합니다.</p>
 
         <h2>삭제되는 데이터</h2>
         <table>
@@ -100,31 +115,46 @@
       <section aria-label="English">
         <h1>Account & Data Deletion</h1>
 
-        <h2>Delete in the app</h2>
+        <h2>Primary method: Delete in the app (recommended)</h2>
         <ol>
           <li>Open SumThing and sign in with Google or Apple</li>
           <li>On the main menu, select <strong>Delete account</strong></li>
           <li>Tap <strong>Yes</strong> on the confirmation dialog to proceed</li>
         </ol>
 
-        <h2>Request deletion by email (if in-app deletion is difficult)</h2>
+        <div class="note">
+          <strong>Important</strong><br />
+          For security reasons, we recommend deleting your account while <strong>signed in to your own account</strong>.
+        </div>
+
+        <h2>Email support (only if in-app deletion is not possible)</h2>
+        <p>
+          If you cannot run the app or sign in (e.g., lost device), you may contact us by email.
+          To prevent abuse, we require a verification step and
+          <strong>we do not delete accounts based on nickname alone.</strong>
+        </p>
+
+        <h3>How to contact</h3>
         <ol>
-          <li>Email us at <a href="mailto:kangagi97@naver.com">kangagi97@naver.com</a></li>
-          <li><strong>Subject</strong>: [SumThing] Account deletion request</li>
+          <li>Email <a href="mailto:kangagi97@naver.com">kangagi97@naver.com</a></li>
+          <li><strong>Subject</strong>: [SumThing] Account deletion support</li>
           <li><strong>Include</strong>:
             <ul>
               <li>The <strong>Google/Apple account email</strong> used to sign in</li>
               <li>Your <strong>nickname/display name</strong> (if known)</li>
-              <li>Your request: <strong>delete my account and related data</strong></li>
+              <li>Reason you cannot delete in-app (e.g., cannot sign in)</li>
             </ul>
           </li>
-          <li>We will respond within <strong>30 days</strong> after verifying the request</li>
         </ol>
 
-        <div class="note">
-          <strong>Guest users</strong><br />
-          Guest users may not have a server account. In that case, uninstalling the app or clearing app storage removes local data on the device.
+        <div class="warn">
+          <strong>To prevent accidental deletion or abuse</strong><br />
+          If we cannot verify that the requester owns the account (e.g., nickname only, insufficient proof),
+          we may refuse the deletion request.<br />
+          Whenever possible, please use the <strong>Delete account</strong> feature in the app.
         </div>
+
+        <p>We typically respond within <strong>30 days</strong> after reviewing the request.</p>
 
         <h2>Data we delete</h2>
         <table>
@@ -133,7 +163,7 @@
           </thead>
           <tbody>
             <tr><td>Account information</td><td>Firebase Authentication user (Google/Apple sign-in)</td></tr>
-            <tr><td>Profile</td><td>Nickname/display name and reservation records for uniqueness</td></tr>
+            <tr><td>Profile</td><td>Nickname/display name and uniqueness reservation records</td></tr>
             <tr><td>Game data</td><td>Server-stored gems and progress/sync related data</td></tr>
             <tr><td>Online features</td><td>Server records tied to your account (e.g., group/leaderboard memberships)</td></tr>
           </tbody>
